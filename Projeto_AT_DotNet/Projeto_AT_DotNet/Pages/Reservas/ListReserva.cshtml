@@ -1,0 +1,17 @@
+﻿@page
+@model Projeto_AT_DotNet.Pages.Reservas.ListReservaModel
+@{
+    ViewData["Title"] = "Reservas Cadastradas";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success mt-3" role="alert">
+        <strong>Sucesso:</strong> @TempData["SuccessMessage"]
+    </div>
+}
+<p>Esta página simula a listagem de reservas.</p>
+
+<a asp-page="./CreateReserva" class="btn btn-info">Voltar ao Cadastro de Reserva</a>

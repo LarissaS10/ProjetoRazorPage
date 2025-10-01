@@ -1,0 +1,34 @@
+﻿@page
+@model Projeto_AT_DotNet.Pages.Descontos.AlertaCapacidadeModel
+@{
+    ViewData["Title"] = "Alerta de Limite de Capacidade (Eventos)";
+}
+
+@*Atv 4*@
+<h1>@ViewData["Title"]</h1>
+<p class="lead">Limite: @Model.Pacote?.CapacidadeMaxima.</p>
+
+<hr />
+
+@if (Model.Alertas != null && Model.Alertas.Any())
+{
+    <div class="alert alert-danger col-md-10 mt-4 mb-4" role="alert">
+        <p>Capacidade máxima de @Model.Pacote?.CapacidadeMaxima.</p>
+        <ul>
+            @foreach (var alerta in Model.Alertas)
+            {
+                <li><strong>@alerta</strong></li>
+            }
+        </ul>
+    </div>
+}
+
+<div class="row">
+    <div class="col-md-10">
+        <h3>Log da Simulação (@Model.Pacote?.Titulo)</h3>
+        <p>Simulação de 4 tentativas</p>
+
+        <pre class="bg-dark text-white p-3">@Model.LogSimulacao</pre>
+
+    </div>
+</div>

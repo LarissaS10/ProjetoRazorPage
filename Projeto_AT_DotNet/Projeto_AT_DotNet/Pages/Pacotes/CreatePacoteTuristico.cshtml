@@ -1,0 +1,53 @@
+﻿@page
+@model Projeto_AT_DotNet.Pages.Pacotes.CreatePacoteTuristicoModel
+@{
+    ViewData["Title"] = "Cadastrar Pacote Turístico";
+}
+
+<h1>@ViewData["Title"]</h1>
+<p class="lead">Validação: Título obrigatório e deve ter no mínimo 3 caracteres.</p>
+
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form method="post">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group mb-3">
+                <label asp-for="PacoteTuristico.Titulo" class="control-label"></label>
+                <input asp-for="PacoteTuristico.Titulo" class="form-control" />
+                <span asp-validation-for="PacoteTuristico.Titulo" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="PacoteTuristico.DataInicio" class="control-label"></label>
+                <input asp-for="PacoteTuristico.DataInicio" class="form-control" type="date" />
+                <span asp-validation-for="PacoteTuristico.DataInicio" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="PacoteTuristico.CapacidadeMaxima" class="control-label"></label>
+                <input asp-for="PacoteTuristico.CapacidadeMaxima" class="form-control" type="number" />
+                <span asp-validation-for="PacoteTuristico.CapacidadeMaxima" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="PacoteTuristico.PrecoDiaria" class="control-label"></label>
+                <input asp-for="PacoteTuristico.PrecoDiaria" class="form-control" type="number" step="0.01" />
+                <span asp-validation-for="PacoteTuristico.PrecoDiaria" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-4">
+                <input type="submit" value="Cadastrar Pacote" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

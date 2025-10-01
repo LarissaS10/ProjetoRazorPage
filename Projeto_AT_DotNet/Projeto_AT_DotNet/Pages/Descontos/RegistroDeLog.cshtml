@@ -1,0 +1,39 @@
+﻿@page
+@model Projeto_AT_DotNet.Pages.Descontos.RegistroDeLogModel
+@{
+    ViewData["Title"] = "Registro de Logs por Reserva";
+}
+
+@*Atv 2*@
+<h1>@ViewData["Title"]</h1>
+
+<hr />
+
+<div class="row">
+    <div class="col-md-8">
+        <form method="post" asp-page-handler="SimularReserva">
+
+            <div class="alert alert-info" role="alert">
+                Clique no botão para simular a criação de uma reserva. Esta simulação acionará o Multicast Delegate, que registrará a operação em 3 lugares diferentes com uma única chamada.
+            </div>
+
+            <button type="submit" class="btn btn-success btn-lg">Simular Criação e Registrar Logs</button>
+        </form>
+
+        <hr />
+
+        @if (!string.IsNullOrEmpty(Model.StatusOperacao))
+        {
+            var alertClass = (bool)(ViewData["Sucesso"] ?? false) ? "alert-success" : "alert-danger";
+
+            <div class="alert @alertClass" role="alert">
+                <h4 class="alert-heading">Status da Operação</h4>
+                <p>@Model.StatusOperacao</p>
+                @if ((bool)(ViewData["Sucesso"] ?? false))
+                {
+                    <p class="mb-0">Para ver os 3 logs (Console, Arquivo, Memória), verifique a janela Saída (Output) do Visual Studio.</p>
+                }
+            </div>
+        }
+    </div>
+</div>

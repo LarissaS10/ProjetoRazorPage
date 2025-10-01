@@ -1,0 +1,43 @@
+﻿@page "{id:int}"
+@model Projeto_AT_DotNet.Pages.Pacotes.PacoteTuristicoDetailsModel
+@{
+    ViewData["Title"] = $"Detalhes: @Model.Pacote?.Titulo";
+}
+
+<h1>Detalhes do Pacote Turístico</h1>
+<p class="lead">Exibição de dados via roteamento na URL.</p>
+
+<hr />
+
+@if (Model.Pacote != null)
+{
+    <h2>@Model.Pacote.Titulo</h2>
+
+    <div class="row">
+        <div class="col-md-6">
+            <dl class="row">
+                <dt class="col-sm-4">ID:</dt>
+                <dd class="col-sm-8">@Model.Pacote.Id</dd>
+
+                <dt class="col-sm-4">Data de Início:</dt>
+                <dd class="col-sm-8">@Model.Pacote.DataInicio.ToShortDateString()</dd>
+
+                <dt class="col-sm-4">Capacidade Máxima:</dt>
+                <dd class="col-sm-8">@Model.Pacote.CapacidadeMaxima</dd>
+
+                <dt class="col-sm-4">Preço Diária:</dt>
+                <dd class="col-sm-8">@Model.Pacote.PrecoDiaria.ToString("C")</dd>
+            </dl>
+        </div>
+    </div>
+}
+else
+{
+    <div class="alert alert-warning">
+        Pacote não encontrado ou ID inválido.
+    </div>
+}
+
+<div class="mt-4">
+    <a asp-page="./ListPacoteTuristico" class="btn btn-secondary">Voltar para a Lista (Simulada)</a>
+</div>

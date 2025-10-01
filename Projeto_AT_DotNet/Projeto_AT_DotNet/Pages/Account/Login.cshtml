@@ -1,0 +1,33 @@
+﻿@page
+@model Projeto_AT_DotNet.Pages.Account.LoginModel
+@{
+    ViewData["Title"] = "Login - Acesso Restrito";
+}
+
+<h1>@ViewData["Title"]</h1>
+<p class="lead">Use admin:admin para fazer login</p>
+
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+            {
+                <div class="alert alert-danger">@Model.ErrorMessage</div>
+            }
+
+            <div class="form-group mb-3">
+                <label asp-for="Username" class="control-label"></label>
+                <input asp-for="Username" class="form-control" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" type="password" />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Entrar</button>
+        </form>
+    </div>
+</div>

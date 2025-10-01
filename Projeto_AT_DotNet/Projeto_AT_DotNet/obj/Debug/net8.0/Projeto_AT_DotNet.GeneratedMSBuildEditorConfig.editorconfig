@@ -1,0 +1,165 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Projeto_AT_DotNet
+build_property.RootNamespace = Projeto_AT_DotNet
+build_property.ProjectDir = C:\Nova pasta\ProjetoRazorPage\Projeto_AT_DotNet\Projeto_AT_DotNet\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Nova pasta\ProjetoRazorPage\Projeto_AT_DotNet\Projeto_AT_DotNet
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/Arquivos/ViewNotes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJxdWl2b3NcVmlld05vdGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/ClientesEF/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNFRlxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/ClientesEF/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNFRlxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/ClientesEF/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNFRlxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/ClientesEF/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNFRlxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/ClientesEF/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNFRlxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/Clientes/CreateCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcQ3JlYXRlQ2xpZW50ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/Clientes/ListCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcTGlzdENsaWVudGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/Descontos/AlertaCapacidade.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVzY29udG9zXEFsZXJ0YUNhcGFjaWRhZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/Descontos/CalculoDesconto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVzY29udG9zXENhbGN1bG9EZXNjb250by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/Descontos/RegistroDeLog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVzY29udG9zXFJlZ2lzdHJvRGVMb2cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/PacotesEF/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjb3Rlc0VGXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/PacotesEF/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjb3Rlc0VGXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/PacotesEF/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjb3Rlc0VGXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/PacotesEF/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjb3Rlc0VGXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/PacotesEF/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjb3Rlc0VGXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/Pacotes/CreatePacoteTuristico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjb3Rlc1xDcmVhdGVQYWNvdGVUdXJpc3RpY28uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/Pacotes/ListPacoteTuristico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjb3Rlc1xMaXN0UGFjb3RlVHVyaXN0aWNvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/Pacotes/PacoteTuristicoDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjb3Rlc1xQYWNvdGVUdXJpc3RpY29EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/ReservasEF/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXJ2YXNFRlxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/ReservasEF/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXJ2YXNFRlxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/ReservasEF/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXJ2YXNFRlxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/ReservasEF/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXJ2YXNFRlxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/ReservasEF/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXJ2YXNFRlxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/Reservas/CreateReserva.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXJ2YXNcQ3JlYXRlUmVzZXJ2YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/Reservas/ListReserva.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXJ2YXNcTGlzdFJlc2VydmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nova pasta/ProjetoRazorPage/Projeto_AT_DotNet/Projeto_AT_DotNet/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-epfkjjb79h

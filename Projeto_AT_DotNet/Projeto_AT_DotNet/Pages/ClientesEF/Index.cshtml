@@ -1,0 +1,47 @@
+﻿@page
+@model Projeto_AT_DotNet.Pages.ClientesEF.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Cliente[0].Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cliente[0].Email)
+            </th>
+            <th>
+                Ações
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Cliente)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.Id">Editar</a> |
+                    <a asp-page="./Details" asp-route-id="@item.Id">Detalhes</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.Id">Excluir</a>
+
+                    | <a asp-page="/Reservas/ListReserva" asp-route-clienteId="@item.Id" class="text-primary">Ver Reservas</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

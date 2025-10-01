@@ -1,0 +1,72 @@
+﻿@page
+@model Projeto_AT_DotNet.Pages.Arquivos.ViewNotesModel
+@{
+    ViewData["Title"] = "Gerenciamento de Anotações (System.IO)";
+}
+
+<h1>@ViewData["Title"]</h1>
+<p class="lead">Criação, salvamento e leitura de arquivos `.txt` na pasta `wwwroot/files` usando **System.IO**.</p>
+
+<hr />
+
+@if (!string.IsNullOrEmpty(Model.ErroMensagem))
+{
+    <div class="alert alert-danger" role="alert">
+        @Model.ErroMensagem
+    </div>
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<div class="row">
+    <div class="col-md-5">
+        <h2>Criar Nova Anotação</h2>
+        <form method="post">
+            <div class="form-group mb-3">
+                <label asp-for="NomeArquivo">Nome do Arquivo (Ex: nota_viagem.txt)</label>
+                <input asp-for="NomeArquivo" class="form-control" required />
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="ConteudoNota">Conteúdo da Anotação</label>
+                <textarea asp-for="ConteudoNota" rows="5" class="form-control" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Salvar Anotação</button>
+        </form>
+    </div>
+
+    <div class="col-md-7">
+        <h2>Arquivos Disponíveis</h2>
+        @if (Model.ArquivosDisponiveis.Any())
+        {
+            <ul class="list-group mb-3">
+                @foreach (var arquivo in Model.ArquivosDisponiveis)
+                {
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        @arquivo
+                        <a asp-page="./ViewNotes" asp-route-nomeArquivoLer="@arquivo" class="btn btn-sm btn-outline-info">Visualizar Conteúdo</a>
+                    </li>
+                }
+            </ul>
+        }
+        else
+        {
+            <div class="alert alert-info">Nenhuma anotação (.txt) encontrada na pasta `wwwroot/files`.</div>
+        }
+
+        @if (!string.IsNullOrEmpty(Model.ConteudoVisualizado))
+        {
+            <div class="card mt-4">
+                <div class="card-header">
+                    Conteúdo de **@ViewContext.HttpContext.Request.Query["nomeArquivoLer"]**
+                </div>
+                <pre class="card-body bg-light">@Html.Raw(Model.ConteudoVisualizado)</pre>
+            </div>
+        }
+    </div>
+</div>

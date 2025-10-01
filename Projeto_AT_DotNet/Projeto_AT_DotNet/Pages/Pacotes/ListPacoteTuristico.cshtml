@@ -1,0 +1,17 @@
+﻿@page
+@model Projeto_AT_DotNet.Pages.Pacotes.ListPacoteTuristicoModel
+@{
+    ViewData["Title"] = "Pacotes Cadastrados";
+}
+
+@*Atv 5*@
+<h1>@ViewData["Title"]</h1>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<a asp-page="./CreatePacoteTuristico" class="btn btn-info">Voltar ao Cadastro</a>
